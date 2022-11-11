@@ -1,4 +1,4 @@
-# Pedestrian-Alert-Syatem
+# Pedestrian-Alert-System
 
 ## Requirements
 
@@ -13,7 +13,7 @@ Hardware:
 
 Detection using deep learning algorithms and processing data over the cloud followed by broadcasting information like position of the pedestrian to the nearby vehicles hence with an alert app connected to OBU via RN4020 bluetooth module,we could alert the driver.
 * STEP 1 :     
-Using RTSP(Real Time Streaming Protocol) the data in terms of frams was taken from th IP camera. Using YOLOv5 algorithm detection was done and with the creation of bounding box in the region of interest the serial data was taken in terms of a flag value. 
+Using RTSP(Real Time Streaming Protocol) the data in terms of frames was taken from the IP camera. Using YOLOv5 algorithm detection was done and with the creation of bounding box in the region of interest the serial data was taken in terms of a flag value. 
 * STEP 2 :   
 The flag value was then updated over a csv file on the edge cloud which was being copied on to the RSU continuously. 
 * STEP 3 :
