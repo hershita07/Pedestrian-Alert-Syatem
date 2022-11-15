@@ -17,7 +17,11 @@ Using RTSP(Real Time Streaming Protocol) the data in terms of frames was taken f
 * STEP 2 :   
 The flag value was then updated over a csv file on the edge cloud which was being copied on to the RSU continuously. 
 * STEP 3 :
-The RSU was broadcasting the information in terms of packets to the OBUs in range. As soon as the OBU was detecting the relevant flag value in the recieved packets it gave the alert via bluetooth to the app.   
+The RSU was broadcasting the information in terms of packets to the OBUs in range. As soon as the OBU was detecting the relevant flag value in the recieved packets it gave the alert via bluetooth to the app.  
+<p align="center" width="70%">
+    <img width="33%" src="https://github.com/hershita07/Pedestrian-Alert-System/blob/main/app.png">    
+</p>
+
  
 
 The connection via blutooth to the app did decrease the time delay that is usually faced in telegram alert generation.  
